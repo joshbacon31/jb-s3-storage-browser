@@ -4,6 +4,7 @@ import '@aws-amplify/ui-react-storage/styles.css';
 import { Amplify } from 'aws-amplify';
 import config from '../amplify_outputs.json';
 
+
 // Configure Amplify using the imported configuration
 Amplify.configure(config);
 
